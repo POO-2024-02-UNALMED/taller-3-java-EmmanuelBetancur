@@ -1,12 +1,12 @@
 package taller3.televisores;
 
-class Marca {
+public class Marca {
     //Atributo nombre
     String nombre;
 
     //Constructor de Marca
-    public Marca(String nom) {
-        nombre = nom;
+    public Marca(String nombre) {
+        this.nombre = nombre;
     }
 
     //Metodos get() y set()
@@ -14,8 +14,8 @@ class Marca {
         return nombre;
     }
 
-    public void setNombre(String nom){
-        this.nombre = nom;
+    public void setNombre(String nombre){
+        this.nombre = nombre;
     }
 
     

@@ -82,13 +82,13 @@ public class TV {
     //definicion de los metodos canalUp y canalDown
 
     public void canalUp(){
-        if (this.canal < 120){
+        if (this.canal < 120 && this.estado == true){
             ++this.canal;
         }         
     }
 
     public void canalDown(){
-        if (this.canal > 1) {
+        if (this.canal > 1 && this.estado == true) {
             --this.canal;
         } 
     }
@@ -96,13 +96,13 @@ public class TV {
     //definicion de los metodos volumenUp y volumenDown
 
      public void volumenUp(){
-        if (this.volumen < 7){
+        if (this.volumen < 7 && this.estado == true){
             ++this.volumen;
         }
     }
 
     public void volumenDown(){
-        if (this.volumen > 0){
+        if (this.volumen > 0 && this.estado == true){
             --this.volumen;
         }
     }

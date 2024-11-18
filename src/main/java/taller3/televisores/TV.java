@@ -11,7 +11,7 @@ public class TV {
     public static int numTV;
 
     //constructor de clase
-    TV (Marca marca, boolean estado){
+    public TV (Marca marca, boolean estado){
         this.marca = marca;
         this.estado = estado;
         this.canal = 1;

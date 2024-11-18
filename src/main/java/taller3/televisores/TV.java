@@ -75,11 +75,11 @@ public class TV {
 
     //definicion de get y set de numTV
 
-    public int getNumTV(){
+    static public int getNumTV(){
         return numTV;
     }
 
-    public void setNumTV(int numTV){
+    static public void setNumTV(int numTV){
         TV.numTV = numTV;
     }
 

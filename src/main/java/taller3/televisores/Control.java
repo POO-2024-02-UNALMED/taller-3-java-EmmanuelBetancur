@@ -6,11 +6,11 @@ public class Control {
 
     //definicion de metodos get y set del atributo tv
 
-    public void setTV(TV tv){
+    public void setTv(TV tv){
         this.tv = tv;
     }
 
-    public TV getTV(){
+    public TV getTv(){
         return tv;
     }
 

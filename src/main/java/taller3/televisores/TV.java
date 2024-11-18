@@ -17,6 +17,7 @@ public class TV {
         this.canal = 1;
         this.precio = 500;
         this.volumen = 1; 
+        TV.numTV++;
     }
 
     //definicion de metodos get y set de marca, canal, precio, volumen y control
